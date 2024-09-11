@@ -1,0 +1,12 @@
+//
+run("Set Scale...", "distance=1536 known=1 unit=m");setOption("BlackBackground", false);run("Brightness/Contrast...");
+run("Enhance Contrast", "saturated=0.35");
+setMinAndMax(17, 255);
+run("Close");
+run("Mean...", "radius=79");
+
+run("8-bit");
+run("Auto Threshold", "method=Default");
+
+run("Create Selection");
+run("Measure");

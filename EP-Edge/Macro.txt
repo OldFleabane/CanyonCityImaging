@@ -1,0 +1,7 @@
+run("Set Scale...", "distance=1536 known=1 unit=m");setOption("BlackBackground", false);run("Find Edges");
+run("Remove Outliers...", "radius=2 threshold=50 which=Dark");
+setOption("BlackBackground", false);
+run("Convert to Mask");
+run("Fill Holes");
+run("Create Selection");
+run("Measure");

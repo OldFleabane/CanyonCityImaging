@@ -1,0 +1,5 @@
+run("Set Scale...", "distance=1536 known=1 unit=m");setOption("BlackBackground", false);
+run("Convert to Mask");
+run("Create Selection");
+run("Measure");
+saveAs("Results", "C:/Users/jonathan.amegin/Desktop/Canyon City Imaging/EP-Binary/EP_Binary_Results.csv");
