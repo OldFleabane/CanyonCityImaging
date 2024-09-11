@@ -8,5 +8,5 @@ Because the angle, distance, and time-of-day were not standard for each photo, b
 The perspective tranformation option of this plugin requires matching named landmarks on both the reference image and the image to be transformed. Named landmarks are placed via the multi-point selection tool at each of the 4 inner 
 corners of the pvc square. This must be done manually for each image to be tranformed. A batch macro was recorded and then run for each image. the new transformed images were then batch cropped to remove as much of the pvc square as possible. 
 
-Thresholding was attempted with 3 different methods. 1) a standard threshold based on color 2) a combination thresholding of edge detection `fill-holes` 3) Pixel averaging and value-based thresholding.
+Thresholding was attempted with 3 different methods. 1) a standard threshold based on color 2) a combination thresholding of `edge detection` `fill-holes` 3) `Pixel averaging` and value-based thresholding.
 The measured areas were not consistant across these methods. 
